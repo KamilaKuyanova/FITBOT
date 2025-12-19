@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "AI Wardrobe",
+    "slug": "fit-application-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F9F9F9"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fitapplication.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F9F9F9"
+      },
+      "package": "com.fitapplication.mobile"
+    },
+    "web": {},
+    "plugins": [
+      "expo-location",
+      "expo-image-picker"
+    ],
+  }
+}
