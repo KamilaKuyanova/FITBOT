@@ -3,8 +3,9 @@
  * 
  * Base URL for all API endpoints
  * Must be set via EXPO_PUBLIC_API_URL environment variable in .env file
+ * Defaults to local IP for physical devices (update IP if needed)
  */
-export const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL;
+export const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || "http://192.168.0.15:3001";
 
 // Log API base URL in development (only once on import)
 if (__DEV__) {
