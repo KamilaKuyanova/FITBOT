@@ -13,3 +13,5 @@ yarn-error.log*
 .env 
 .neteragen/
 fitapplication/ 
+.neteragen/
+*.mp4
